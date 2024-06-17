@@ -1,0 +1,24 @@
+/* css by kirbix 
+        - link: https://codepen.io/kirbix
+        -link: https://github.com/kirbix-dev */
+        body {
+            background: #c2c1c1;
+        }
+        .box {
+            background: white;
+            box-shadow: inset 10px 10px 20px #babecc,-10px -10px 20px #ffffff;
+            border-radius: 15px;
+            border: solid 2px white;
+            height: 100px;
+            width: 300px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .box h1 {
+            text-align: center;
+            font-family: "Permanent Marker", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
